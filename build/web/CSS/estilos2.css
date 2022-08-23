@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url(../Imagenes/bg.jpg) no-repeat center top;
+  background-size: cover;
+  font-family: century gothic;
+  height: 100vh;
+}
+
+.box {
+  width: 1300px;
+  height: 600px;
+  background: #000;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing:border-box;
+  padding: 20px 20px;
+}
+
+.menu {
+    float: left;
+    width: 200px;
+    height: 540px;
+    background: black;
+    position:relative;
+}
+
+
+
+.box .avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: -50px;
+  left: calc(50% - 50px);
+}
+
+.box h1 {
+  margin: 0;
+  padding: 0 0 2px;
+  color: gray;
+  font-size: 16px;
+}
+
+.box h2 {
+  margin: 0;
+  padding: 0 0 2px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.box label {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  display: block;
+}
+
+box .avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: -50px;
+  left: calc(50% - 50px);
+}
+
+
+.box input[type="text"], .registro-box input[type="password"] {
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+}
+
+.box input[type="submit"] {
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #b80f22;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+}
+
+.box input[type="submit"]:hover {
+  cursor: pointer;
+  background: #ffc107;
+  color: #000;
+}
+
+
+.peliculas h1 {
+  margin: 0;
+  padding: 0 0 2px;
+  color: gray;
+  font-size: 16px;
+  text-align: center;
+}
+
+.peliculas {
+    float: right;
+    width: 1050px;
+    height: 540px;
+    background:#000;
+    grid-gap: 30px
+    
+}
+
+
+.item{
+      float: left;
+      padding: 5px 20px;
+}
+
+img
+{
+  
+    width: 85px;
+    height: 135px;
+    
+}
